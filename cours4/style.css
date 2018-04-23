@@ -2,18 +2,18 @@ body{
   background: #fff;
   color: #000; 
   font-size: 16px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Black Han Sans', sans-serif;
   margin:0;
 }
 
 nav{
   display:inline;
   font-size: 1em;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Black Han Sans', sans-serif;
 } 
 
 h1{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Do Hyeon', sans-serif;
   color:  #41A3C0; 
   font-weight: bolder;
   font-size: 2em;
@@ -30,51 +30,48 @@ p{
   color: #8e9bac;
 }
 
-a { 
-  color: #29324B;
+a{
+  color: white;
+  text-decoration: none;
 }
 
 a:hover {
   text-decoration: none;
-  color: rgb(225, 0, 152);
+  color: #DF0174;
 }
 
 .red {
   color:red;
 }
 
-#logo{
-  color: #A9BCF5;
-  font-size: 35px;
-  font-family: 'Pacifico', cursive;
-}
 
 /* Mis en forme de la baseline */
 #baseline{
-  background-color: #F5A9A9;
+  background-color: #2E64FE;
+  background-image: url(https://i.ytimg.com/vi/fa549RILAWo/maxresdefault.jpg);
   text-align: center;
   background-size: cover;
-  padding: 200px;
+  padding: 220px;
   color: white;
   text-shadow: 1px 1px 5px black;
 }
 
 #baseline h1 {
   color: white;
-  font-size: 50px;
+  font-size: 55px;
 }
 
 #baseline a {
   color: white;
-  font-size: 30px;
+  font-size: 45px;
   font-weight: lighter;
   text-decoration: none;
 }
 
 #welcome{
-  background-color: #41A3C0;
+  background-color: #2E64FE;
   text-align: center;
-  padding: 50px;
+  padding: 200px;
   color: white;
 }
 
@@ -92,18 +89,29 @@ a:hover {
   width: 400px;
 }
 
-  #apropos{
+
+  #apropos {
   margin: 0 auto;
   width: 80%;
-  background-color: 9ccdfa;
+  background-color: #2E64FE;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#defis{
+  margin: 0 auto;
+  width: 80%;
+  background-color: #DF0174;
   display:flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 nav li {
-  margin: 10px;
+  margin: 15px;
   display:inline;
+  font-size: 20px;
 }
 
 nav ul {
@@ -112,11 +120,13 @@ nav ul {
 }
 
 #logo{
-  color: #fff;
-  font-size: 35px;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Lobster', cursive;
+  color: #DF0174;
+  font-size: 45px;
+  font-weight: bold;
   float: left;
   margin-left: 50px;
+  text-decoration: none;
 }
 
 #baseline a:hover {

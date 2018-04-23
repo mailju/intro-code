@@ -3,7 +3,7 @@ $(document).ready(function() {
 
 function getUsername() {
     //affiche une boite de dialogue 
-    var  user = prompt("Veuillez rentrer votre prénom:", "Prénom");
+    var  user = prompt("Veuillez rentrer votre prénom:", "");
 
     // la fonction se termine en retournant le nom récupéré par la boite de dialogue
     
@@ -11,14 +11,14 @@ function getUsername() {
   		return user
 } 	
 		else 
-			{var user = prompt("Veuillez rentrer votre prénom:", "Prénom");
+			{var user = prompt("Veuillez rentrer votre prénom:", "");
 		return user
 }
 }
 
  function welcome() {
     var name= getUsername();
-    $("#welcome").html('<h4>Bienvenue '+name+', <br> soyez pret à renouveler de nouveaux défis ! </h4>');
+    $("#welcome").html('<h4>Bienvenue '+name+', <br> soyez pret à relever de nouveaux défis ! </h4>');
 
 };
 
